@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>MARQUE TAG</title>
+    </head>
+    <body>
+        <marquee> THIS IS THE MARQUE TAG!..</marquee>
+        <marquee> <a href="#"></a> THIS IS THE MARQUE TAG!..</marquee>
+        <marquee bgcolor="teal"> THIS IS THE MARQUE TAG!..</marquee>
+
+        <br><hr><br>
+        
+        <marquee behavior="alternate" bgcolor="skyblue">THE is an alternate marque tag..!</marquee>
+        <br><br>
+        <marquee behavior="scroll" bgcolor="skyblue">THE is an alternate marque tag..!</marquee>
+        <br><br>
+        <marquee behavior="slide" bgcolor="skyblue">THE is an alternate marque tag..!</marquee>
+        <br><br><hr>
+
+
+        <marquee direction="right" bgcolor="skyblue">THE is an right marque tag..!</marquee>
+        <br><br>
+        <marquee direction="left" bgcolor="skyblue">THE is an left marque tag..!</marquee>
+        <br><br>
+        <marquee direction="up" bgcolor="skyblue" height="100">THE is an up marque tag..!</marquee>
+        <br><br>
+        <marquee direction="down" bgcolor="skyblue" height="100">THE is an down marque tag..!</marquee>
+        <br><br>
+
+        <marquee bgcolor="skyblue" scrollamount="1"> This is a marque tag..!</marquee>
+        <br><br>
+        <marquee bgcolor="skyblue" scrollamount="20" id="test"> This is a marque tag..!</marquee>
+        <br><br>    
+        <marquee bgcolor="skyblue" scrollamount="10"> This is a marque tag..!</marquee>
+        <br><br>
+        <marquee bgcolor="skyblue" scrollamount="5"> This is a marque tag..!</marquee>
+        <br><br>
+
+        <script>
+            let marqueTag = document.getElementById('test')
+
+            marqueTag.onmouseover=function(){
+                marqueTag.stop()
+            }
+
+            marqueTag.onmouseleave=function(){
+                marqueTag.start()
+            }
+        </script>
+
+    </body>
+</html>
