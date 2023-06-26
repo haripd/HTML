@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <title>New Employee Details Form</title>
+    </head>
+    <body>
+        <center>
+            <h1>New Employee Details Form</h1>
+        </center>
+        <br>
+        <p>Personal Details</p>
+        <br>
+        <form action="" >
+            <label for="">Your Name </label> *
+            <select name="perfix" id="perfix" required>
+                <option value=""></option>
+                <option value="">Mr</option>
+                <option value="">Ms</option>
+            </select>
+            *<input type="text" id="fname" name="fname" placeholder="Firstname" required autocomplete="off">
+            *<input type="text" id="mname" name="mname" placeholder="middlename" required autocomplete="off">
+            *<input type="text" id="lname" name="lname" placeholder="lastname" required autocomplete="off">
+            <br>
+            <br>
+            *<label for="">Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="m" name="gender">&nbsp;
+            <label for="">Male </label>
+            <input type="radio" id="f" name="gender">
+            <label for="">Female </label>
+            <br>
+            <br>
+            *<label for="">Birth Date</label>&nbsp;&nbsp;
+            <input type="text" id="birthday" name="birthday" placeholder="Birthday" required autocomplete="off">&nbsp; OR
+            <input type="date" id="date" name="date">
+            <br>
+            <br>
+            <label for="">Address</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="address" name="address" placeholder="Street address" required autocomplete="off">&nbsp;
+            <input type="text" id="street adrs line2" name="street adrs line2" placeholder="Street address line 2">
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="suburb" name="suburb" placeholder="SubUrb" required autocomplete="off">&nbsp;
+            <input type="text" id="state" name="state" placeholder="State">&nbsp;<input type="text" id="postal" name="postal" placeholder="PINCODE" required autocomplete="off">
+            <br>
+            <br>
+            <label for="">Contact</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="homephone" name="homephone" placeholder="Home Phone" required autocomplete="off">&nbsp;
+            <input type="text" id="mobileph" name="mobileph" placeholder="Mobile Phone" required autocomplete="off">&nbsp;
+            <input type="text" id="emailAdr" name="emailAdr" placeholder="Email Address" required autocomplete="off">&nbsp;
+            <br>
+            <br>
+            *<label for="">Are you an Australian</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="yes" name="citizen">
+            <label for="">Yes</label>
+            <input type="radio" id="No" name="citizen">
+            <label for="">No</label>
+            <br>
+            <br>
+            *<label for="">Do you have working visa</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="yes" name="workpermit">
+            <label for="">Yes</label>
+            <input type="radio" id="No" name="workpermit">
+            <label for="">No</label>
+            <br>
+            <br>
+            <h4><b>Employment Details</b></h4>
+            *<label for="">Job Title</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="jobtitle" name="jobtitle" size="35">
+            <br>
+            <br>
+            *<label for="">Commencement Date</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="comnDate" name="comnDate" size="35">
+            <br>
+            <br>
+            *<label for="">File Tax Number</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="fileTax" name="fileTax" size="35">
+            <br>
+            <br>
+            *<label for="">Employment Status</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="fullTime" name="empStatus">&nbsp;&nbsp;<label for="">Full Time</label>&nbsp;&nbsp;
+            <input type="radio" id="PartTime" name="empStatus">&nbsp;&nbsp;<label for="">Part Time</label>&nbsp;&nbsp;
+            <input type="radio" id="Temp" name="empStatus">&nbsp;&nbsp;<label for="">Temporary</label>&nbsp;&nbsp;
+            <input type="radio" id="causal" name="empStatus">&nbsp;&nbsp;<label for="">Causal</label>&nbsp;&nbsp;
+            <br>
+            <h4><b>Emergency contact Details</b></h4>
+            <label for="">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <select required>
+                <option value=""></option>
+                <option value="">Mr</option>
+                <option value="">Ms</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;
+            <input type="text" name="fname1" id="fname1" placeholder="First Name" required>&nbsp;
+            <input type="text" name="midname1" id="midname1" placeholder="Middle Name">&nbsp;
+            <input type="text" name="srname1" id="srname1" placeholder="Sur Name" required>
+            <br>
+            <br>
+            *<label for="">Relationship</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="retnshp" name="retnshp" size="35">
+            <br>
+            <br>
+            <label for="">Contact</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            *<input type="text" id="homephone1" name="homephone1" placeholder="Home Phone" required>&nbsp;
+            *<input type="text" id="mobileph1" name="mobileph1" placeholder="Mobile Phone" required>&nbsp;
+            *<input type="text" id="emailAdr1" name="emailAdr1" placeholder="Email Address" required>&nbsp;
+    
+            <h4><b>Banking Details</b></h4>
+            <label for="">Bank</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="bank" name="bank" placeholder="Bank Name" required>&nbsp;
+            <input type="text" id="bankBrn" name="bankBrn" placeholder="Bank Branch" required>
+            <br>
+            <br>
+            <label for="">Account</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="acctName" name="acctName" placeholder="Account Name" required>&nbsp;
+            <input type="text" id="acctNmbr" name="acctNmbr"
+            placeholder="Account Number" required>&nbsp;
+            <input type="text" id="bsbNmbr" name="bsbNmbr" placeholder="BSB Number" required>&nbsp;
+            <br>
+            <br>
+            *<label for="">Employee Signature</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea name="empSignt" id="empSignt" cols="50" rows="10"></textarea>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="pntName" name="pntName" placeholder="Print your name here" size="50">
+            
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="entDate" name="entDate" placeholder="Enter date here" size="50">
+            <br>
+            <input type="submit" id="submit" value="SUBMIT">
+        </form>
+        
+        <br>
+        <br>
+        <br>
+        *<label for=""> Mandatory fields</label>
+        <br>
+        <br>
+    
+        
+        <footer>
+            <center>
+                <h6><u>Create your own Bornesoft</u><sup>*</sup><u>Online Forms</u></h6>
+                <p>choose from our Form template or modify this form</p>
+            </center>
+        </footer>
+
+        <hr>
+
+
+    </body>
+</html>
